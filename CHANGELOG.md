@@ -4,8 +4,9 @@ x.y.z Release notes (yyyy-MM-dd)
 * None.
 
 ### Fixed
-* <How to hit and notice issue? what was the impact?> ([#????](https://github.com/realm/realm-cocoa/issues/????), since v?.?.?)
-* None.
+* Observing `Object.isInvalidated` via a keypath literal would produce a
+  warning in Swift 5.2 due to the property not being marked as @objc.
+  ([#6554](https://github.com/realm/realm-cocoa/issues/6554))
 
 <!-- ### Breaking Changes - ONLY INCLUDE FOR NEW MAJOR version -->
 
