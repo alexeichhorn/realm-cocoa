@@ -120,7 +120,6 @@ let package = Package(
             exclude: [
                 "Sync.swift",
                 "BSON.swift",
-                "RealmApp.swift",
                 "MongoClient.swift",
                 "ObjectiveCSupport+Sync.swift",
                 "ObjectiveCSupport+BSON.swift",
