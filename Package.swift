@@ -119,6 +119,7 @@ let package = Package(
             path: "RealmSwift",
             exclude: [
                 "Sync.swift",
+                "ObjectiveCSupport+Sync.swift",
                 "Tests",
             ]
         ),
